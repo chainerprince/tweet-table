@@ -1,0 +1,98 @@
+.app {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 1px solid gray;
+  margin: 0.5rem 1rem;
+  font-family: sans-serif;
+  border-radius: 1rem;
+  box-shadow: 4px 6px 5px 0 rgb(0 0 0 / 33.2%);
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border: 1px solid gray;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  font-size: x-large;
+  font-weight: 700;
+  font-family: monospace;
+  box-shadow: 4px 6px 5px 0 rgb(0 0 0 / 33.2%);
+  flex-wrap: wrap;
+}
+.iframe{
+    margin: 0 2rem 0 6rem;
+}
+.data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+  width: 90%;
+//   border: 1px solid gray;
+  
+//   border-radius: 0.5rem;
+  cursor: pointer;
+//   box-shadow: 4px 6px 5px 0 rgb(0 0 0 / 33.2%);
+flex-direction: row;
+}
+.flex-icons{
+    margin: 0 auto;
+}
+.dataContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1rem;
+  border: 1px solid gray;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 4px 6px 5px 0 rgb(0 0 0 / 33.2%);
+}
+
+input {
+  margin: 1rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.influencer {
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1240px) {
+  .app {
+    grid-template-columns: 1fr;
+    margin: 0;
+  }
+}
+
+.svg {
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: x-large;
+  font-weight: 700;
+  font-family: monospace;
+}
+
+.neutral {
+    color: green !important;
+}
